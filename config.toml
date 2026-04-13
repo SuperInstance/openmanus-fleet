@@ -1,0 +1,15 @@
+# Oracle1's OpenManus agent — DeepInfra powered with Playwright
+
+[llm]
+model = "ByteDance/Seed-2.0-mini"
+base_url = "https://api.deepinfra.com/v1/openai"
+api_key = "RhZPtvuy4cXzu02LbBSffbXeqs5Yf2IZ"
+max_tokens = 8192
+temperature = 0.0
+
+[llm.vision]
+model = "microsoft/phi-4"
+base_url = "https://api.deepinfra.com/v1/openai"
+api_key = "RhZPtvuy4cXzu02LbBSffbXeqs5Yf2IZ"
+max_tokens = 4096
+temperature = 0.0
